@@ -1,11 +1,18 @@
 ## Install Termux Commands
 
 Termux-Packages-Install
+
+```
+termux-setup-storage
+```
 ```
 pkg update -y
-
+```
+```
 pkg install git -y
+```
 
+```
 pkg install python -y
 ```
 
