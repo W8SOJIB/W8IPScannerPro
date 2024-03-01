@@ -80,7 +80,7 @@ def print_logo():
     print(bordered_logo)
 
 def run_tool():
-    password = "0011"
+    password = "W8Team"
     entered_password = input("Enter password: ")
     if entered_password != password:
         print("Incorrect password.")
