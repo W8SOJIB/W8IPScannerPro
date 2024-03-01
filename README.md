@@ -35,7 +35,15 @@ python W8IPScannerPro.py
 ```
 ## Single Line Install
 ```
-termux-setup-storage ; apt-update -y ; apt-upgrade -y ; pkg install python -y ; apt install git curl -y ; git clone https://github.com/W8SOJIB/W8IPScannerPro/ ; cd W8IPScannerPro ; pip install -r requirements.txt ; python W8IPScannerPro.py
+termux-setup-storage
+apt update -y && apt upgrade -y
+pkg install python -y
+apt install git curl -y
+git clone https://github.com/W8SOJIB/W8IPScannerPro/
+cd W8IPScannerPro
+pip install -r requirements.txt
+python W8IPScannerPro.py
+
 ```
 
 ## Find Me on :
